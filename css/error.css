@@ -1,0 +1,141 @@
+header{
+  width:95em;
+  top:0; left:0;
+  position:fixed;
+  background-color:white;
+  z-index: 100;
+}
+label > a{
+  text-decoration:none;
+  font-weight:bold;
+  color:black;
+}
+#hdmenu > a{
+  color:black;
+  text-decoration:none;
+  font-weight:500;
+}
+#head > a{
+  position:relative;
+  color:gray;
+  text-decoration:none;
+  font-weight:bold;
+  margin:20px;
+  left:1.8em;
+  font-size:1.4em;
+}
+#firstha{
+  color:red;
+}
+#head > img{
+  width:150px;
+  height:55px;
+}
+#search{
+  position:absolute;
+  top:3em;
+  left:75em;
+}
+#search > input[type=text]{
+  border: 1px none none;
+  width:250px;
+  height:1.8em;
+  border-radius: 10px;
+}
+#search > input[type=button]{
+  border: 1px none none;
+  border-radius: 10px;
+  position:absolute;
+  top:-0.2em;
+  left:19.5em;
+  margin:0;
+  width:2.5em;
+  height:2.5em;
+  background-image:url("../img/error/search.png");
+}
+#submenu{
+  position:relative;
+  left:4em;
+}
+#submenu > a{
+  display:inline-block;
+  margin-left:1em;
+  margin-top:-1.1em;
+  margin-bottom:-1.1em;
+  text-decoration: none;
+  color:black;
+  font-size: 1.05em;
+  padding:1em;
+}
+#submenu > a:hover {
+  background-color: lightgray;
+}
+#submenu li{
+  list-style-type: none;
+  font-weight: bold;
+}
+content{
+  position:absolute;
+  top:12em;
+  left:0em;
+  width:95em;
+}
+#errortxt{
+  position:relative;
+  display:inline-block;
+  left:4em;
+  bottom:5.5em;
+  font-size: 1.9em;
+  color:rgba(50,50,50,0.9);
+}
+#errorimg{
+  position:relative;
+  left:3em;
+  width:27em;
+  height:27em;
+}
+footer{
+  position:relative;
+  left: 0;
+  top:60em;
+  width:95em;
+  height:20em;
+  background-color:rgba(180,180,180,0.3);
+}
+#foottext{
+  position:relative;
+  top:4em;
+}
+#ft1{
+  position:absolute;
+  margin-left:1.8em;
+  float:left;
+}
+#ft2{
+  position:absolute;
+  margin-left:30.8em;
+  float:left;
+}
+#ft3{
+  position:absolute;
+  margin-left:81.8em;
+  float:left;
+}
+#ft4{
+  clear:both;
+  position:absolute;
+  top:15em;
+  left:41em;
+  text-align: center;
+  font-size:0.8em;
+  font-weight: bold;
+  color:rgb(80,80,80);
+}
+#ft_1{
+  font-size:0.9em;
+  font-weight:bold;
+}
+#ft_2{
+  color:gray;
+  font-size:0.9em;
+}

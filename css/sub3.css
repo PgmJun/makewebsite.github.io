@@ -1,0 +1,231 @@
+header{
+  width:95em;
+  top:0; left:0;
+  position:fixed;
+  background-color:white;
+  z-index: 100;
+}
+label > a{
+  text-decoration:none;
+  font-weight:bold;
+  color:black;
+}
+#hdmenu > a{
+  color:black;
+  text-decoration:none;
+  font-weight:500;
+}
+#head > a{
+  position:relative;
+  color:gray;
+  text-decoration:none;
+  font-weight:bold;
+  margin:20px;
+  left:1.8em;
+  font-size:1.4em;
+}
+#firstha{
+  color:red;
+}
+#head > img{
+  width:150px;
+  height:55px;
+}
+#search{
+  position:absolute;
+  top:3em;
+  left:75em;
+}
+#search > input[type=text]{
+  border: 1px none none;
+  width:250px;
+  height:1.8em;
+  border-radius: 10px;
+}
+#search > input[type=button]{
+  border: 1px none none;
+  border-radius: 10px;
+  position:absolute;
+  top:-0.2em;
+  left:19.5em;
+  margin:0;
+  width:2.5em;
+  height:2.5em;
+  background-image:url("../img/purchase/search.png");
+}
+#submenu{
+  position:relative;
+  left:4em;
+}
+#submenu > a{
+  display:inline-block;
+  margin-left:1em;
+  margin-top:-1.1em;
+  margin-bottom:-1.1em;
+  text-decoration: none;
+  color:black;
+  font-size: 1.05em;
+  padding:1em;
+}
+#submenu > a:hover {
+  background-color: lightgray;
+}
+#submenu li{
+  list-style-type: none;
+  font-weight: bold;
+}
+content{
+  position:absolute;
+  top:12em;
+  left:0em;
+  width:95em;
+}
+#clothebox{
+  position: relative;
+  margin-left:10em;
+  float:left;
+}
+#mainclothe{
+  position: relative;
+  margin-left:-1.3em;
+}
+#clothetxt{
+  position: absolute;
+  left:42em;
+  top:-2em;
+  padding-right: 14em;
+}
+#price1{
+  color:gray;
+}
+#price2{
+  font-weight: bold;
+}
+#price1 > span{
+  text-decoration: line-through;
+  margin-left: 1em;
+}
+#price2 > span{
+  margin-left: 2em;
+}
+.form1{
+  color:rgb(70,70,70);
+}
+#form1_{
+  margin-left: 4em;
+}
+#form2_{
+  margin-left: 1.1em;
+  width:19.5em
+}
+form h4{
+  display:inline-block;
+}
+select{
+  height: 2em;
+}
+#totalpricebox{
+  background-color: lightgray;
+}
+#totalprice{
+  color:black;
+  font-size: 1.2em;
+}
+#totalpricebox > h4{
+  color:rgb(70,70,70);
+  margin-left: 12em;
+}
+#pbtnbox{
+  position: absolute;
+  margin-left: 10em;
+}
+#pbtn1{
+  color:white;
+  background-color: black;
+  width:9em;
+  height:3.5em;
+  border: 1px solid black;
+}
+#pbtn2{
+  background-color: white;
+  width:9em;
+  height:3.5em;
+  border: 1px solid black;
+}
+#bonusexplainbox{
+  position: absolute;
+  left:72em;
+  top:2em;
+  width:20em;
+}
+#beb1{
+  display: inline-block;
+  margin-bottom: 2em;
+}
+#beb2{
+  display: inline-block;
+  margin-bottom: 1em;
+}
+#beb1 > span{
+  color:red;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+#beb2 > span{
+  color:red;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+#bonusexplainbox > input{
+  width:20em;
+  height: 3em;
+  margin-left: 2.1em;
+  background-color: white;
+  border:1px solid black;
+  font-weight: bold;
+}
+footer{
+  position:absolute;
+  left:0;
+  top:50em;
+  width:95em;
+  height:20em;
+  background-color:rgba(180,180,180,0.3);
+}
+#foottext{
+  position:relative;
+  top:4em;
+}
+#ft1{
+  position:absolute;
+  margin-left:1.8em;
+  float:left;
+}
+#ft2{
+  position:absolute;
+  margin-left:30.8em;
+  float:left;
+}
+#ft3{
+  position:absolute;
+  margin-left:81.8em;
+  float:left;
+}
+#ft4{
+  clear:both;
+  position:absolute;
+  top:15em;
+  left:41em;
+  text-align: center;
+  font-size:0.8em;
+  font-weight: bold;
+  color:rgb(80,80,80);
+}
+#ft_1{
+  font-size:0.9em;
+  font-weight:bold;
+}
+#ft_2{
+  color:gray;
+  font-size:0.9em;
+}

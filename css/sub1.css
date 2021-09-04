@@ -1,0 +1,90 @@
+header{
+  position:absolute;
+  left:0;
+  top:0;
+  width:95em;
+  height:170px;
+  background-color: rgb(56,56,56);
+}
+header > span{
+  position:relative;
+  top:1.5em;
+  left:15em;
+  font-size: 2.6em;
+  font-family:"나눔스퀘어라운드 Bold";
+  color:white;
+}
+#login{
+  position:relative;
+  top:14em;
+  left:0em;
+}
+form{
+  position: relative;
+  margin-left:39.5em;
+  margin-bottom: 3em;
+}
+.logintab{
+  width:20em;
+  height:4em;
+}
+.bar{
+  color:gray;
+}
+#longlogin{
+  color:gray;
+  font-size: 0.9em;
+}
+.helpbar{
+  color:gray;
+  text-decoration: none
+}
+#loginbtn{
+  position:absolute;
+  top:1em;
+  left:15em;
+  width:8em;
+  height:4em;
+  background-color: black;
+  color:white;
+  font-size: 1.2em;
+}
+#loginbtn:hover{
+  animation-name: mouseover;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+.otherlogin{
+  width:4em;
+  height:4em;
+  display:inline-block;
+  margin-right:1.5em;
+}
+.otherlogin img{
+  width:65px;
+  height: 65px;
+}
+#otherloginmenu{
+  position:relative;
+  top:21em;
+  margin-left:30em;
+}
+#otherloginmenu > span{
+  position:relative;
+  top:-7em;
+  left:13em;
+  font-family:"고딕";
+  font-weight: bold;
+}
+#mainlogo{
+  position:relative;
+  top:12em;
+  left:42em;
+  width:190px;
+  height:75px;
+}
+@keyframes mouseover {
+    0%{background-color: black;}
+    50%{background-color: rgb(150,150,150);}
+    99%{{background-color: rgb(160,160,160);}
+}
